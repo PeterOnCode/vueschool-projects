@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import {ref} from "vue";
 
-const header = ref("Vue is ready to party!")
+const header = ref("Shopping list App")
 </script>
 
 <template>
-  <h1>Header text: {{ header }}</h1>
+  <h1>{{ header || "Welcome" }}</h1>
   <input v-model="header">
 </template>
 
