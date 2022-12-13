@@ -2,4 +2,4 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#shopping-list')
+export const shoppingListApp = createApp(App).mount('#shopping-list')
